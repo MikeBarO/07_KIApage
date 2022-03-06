@@ -1,0 +1,306 @@
+    /* body{
+        margin: 0;
+        padding:0;
+    } */
+
+    .stripe {
+        /* border:1px solid blue; */
+        text-align:center;
+        font-family: Arial, Helvetica, sans-serif
+    }
+
+    /* ---------MENU SECTION-------- */
+    .menu.stripe {
+        background: #fff;
+    }
+
+    /* Site Title */
+    .site-header {
+        background: #fff;
+        z-index: 1004;
+        text-align: center;
+        height: 25px;
+        padding: 5px 0 !important;
+        border-bottom: 4px solid#bc162c;
+    }
+
+    .container {
+        max-width: 1160px;
+        margin: 0 auto;
+        position: relative;
+    }
+
+    .kia-logo {
+        position: absolute;
+        right: 0;
+        top: 4px;
+        height: 20px;
+    }
+
+    /* .custom-logo-link{ */
+        /* --swiper-theme-color: #007aff; */
+        /* --swiper-navigation-size: 44px; */
+        /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+        /* text-transform: uppercase; */
+        /* text-align: center; */
+        /* box-sizing: border-box; */
+        /* width: 20px; */
+        /* height: 20px; */
+    /* } */
+
+    .site-title {
+        font-weight: bold;
+        font-size:20px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        z-index: -1;
+        margin: 0px;
+    }
+
+    .contact-link {
+        position: absolute;
+        left: 100px;
+        top: 5px;
+        bottom: 5px;
+    }
+
+    .kia-link {
+        position: absolute;
+        left: 200px;
+        top: 5px;
+        bottom: 5px;
+    }
+
+    a{  font-family: arial; 
+        color: #bc162c;
+        font: 23px;
+        text-decoration:none;
+        padding: 0px 28px 0px 0px;
+        vertical-align: middle;
+    }
+
+    .menu.stripe .menu-entry{
+        color:black;
+        margin:20px;
+        padding-top: 10px;
+        padding-bottom: 0px;
+        padding-left: 50px;
+        vertical-align: middle;
+    }
+
+    /* .line{
+        height: 2px;
+        background-color: rgba(221,221,221,0.185);
+        width: 92%;
+    } */
+    
+    h1 {
+        display: block;
+        font-size: 2em;
+        margin-block-start: 0.67em;
+        margin-block-end: 0.67em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    }
+
+    /* ---------PROMO SECTION-------- */
+    .promo{
+        margin: 0; 
+        text-align: center; 
+        font-family: Georgia, 'Times New Roman', Times, serif; 
+        color: whitesmoke;
+    }
+
+    .promo.stripe {
+        height: inherit;
+    }
+
+    .kia-banner{
+        margin: 0mm;
+        background-image: url("../images/banner-kia.jpg");
+        width: 1520px;
+        height: 230px;
+        display:inline-block;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        z-index: -1;
+    }
+
+    /* ---------FEATURE SECTION-------- */
+    body {
+        margin: 0;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background: #f1f1f1;
+        text-transform: uppercase;
+    }
+
+    /* .kia-banner {
+        cursor: pointer;
+    } */
+
+    .home-header {
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .home-header h2 {
+        text-align: center;
+        font-size: 60px;
+        line-height: 60px;
+        color: #bc162c;
+        font-weight: bold;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin: 0;
+    }
+
+    /* -- RED LINE -- */
+    /* hr.main-hr
+    {
+        height: 4px;
+        background-color: rgb(180, 0, 0);
+        margin: 0;
+    } */
+
+    .home-header h3 {
+        margin: 0;
+        font-size: 40px;
+        font-weight: bold;
+        line-height: 30px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .models-wrapper {
+        display: block;
+        margin-bottom: 60px;
+    }
+    .single-model {
+        width: 360px;
+        margin: 0;
+        overflow: hidden;
+        position: relative;
+        border: 2px solid #e5e5e5;
+        background-color: #fff;
+        padding-bottom: 25px;
+        display: inline-block;
+        margin-left: 0px;
+        margin-bottom: 0px;
+        text-align: right;
+    }
+
+    .single-model a {
+        text-decoration: none;
+        color: initial;
+    }
+
+    .single-model:nth-child(3n) {
+        margin-left: 0;
+    }
+    .single-model .image {
+        margin-top: 20px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .single-model .title {
+        font-size: 20px;
+        font-weight: bold;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin: 0px 15px 0px 15px;
+        margin-right: 0.2em;
+        padding-top: 5px;
+        border-top: 2px solid #e5e5e5;
+        /* color: #58595b; */
+        color: #000;
+        text-align: right;
+        padding: 0 15px;
+    }
+
+    .single-model .price {
+        font-size: 15px;
+        color: #58595b;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding: 0 18px;
+        text-align: right;
+    }
+
+    .single-model .fee-text {
+        font-size: 12px;
+        color: #58595b;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: right;
+    }
+    
+    .single-model .tax-text {    
+        text-transform: uppercase;
+        font-size: 12px;
+        color: #58595b;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: right;
+        margin: 10px;
+        /* padding: 10 10px; */
+    }
+
+    .single-model .button {
+        position: absolute;
+        bottom: 35px;
+        left: 15px;
+    }
+
+    .single-model .button {
+        padding: 5px 30px;
+        background-color: #bc162c;
+        display: block;
+        color: #fff;
+        text-decoration: none;
+        font-size: 19px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-indent: -10px;
+    }
+
+    .single-model .button:after {
+        position: absolute;
+        top: 11px;
+        left: 15px;
+        width: 11px;
+        height: 11px;
+        background-image: url(../../images/white-arrow.png);
+        background-repeat: no-repeat;
+        background-position: 0;
+        background-size: contain;
+        overflow: hidden;
+        content: '';
+    }
+
+    /* ::after {
+        box-sizing: border-box;
+    } */
+
+    .footer{
+        text-align:center;
+    }
+
+    .footer.stripe {
+        height: 100px;
+    }
+
+
+    span{   
+        margin: 10px; 
+        padding: 10px;
+    }
+
+    /* .site-header a:after {
+        position: absolute;
+        top: 1px;
+        right: 0;
+        width: 23px;
+        height: 23px;
+        background-image: url(../images/button_weel.jpeg);
+        background-repeat: no-repeat;
+        background-position: 0;
+        overflow: hidden;
+        content: '';
+        background-size: cover;
+    } */
+    ;
